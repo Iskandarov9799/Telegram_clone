@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration-style: none;
+}
+
+
+
+.main {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 600px;
+}
+
+.main2 {
+    display: none;
+}
+
+.aside {
+    width: 25%;
+    background-color: #FFFFFF;
+}
+
+.middle {
+    width: 75%;
+}
+
+.right-side {
+    display: none;
+}
+
+
+.aside-search-div {
+    position: relative;
+    border-radius: 30px;
+}
+
+
+
+
+
+.aside__input {
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    font-style: bold;
+    background-color: #F4F4F5;
+}
+.search-icon{
+    position: absolute;
+    width: 20px;
+    left: 10%;
+    top: 12%;
+}
+
+.btn-close {
+    position: absolute;
+    top:10%;
+    right: 10%;
+}
+
+.aside-center {
+    margin-top: 20px;
+    overflow: scroll;
+    height: 500px;
+}
+
+.component_1, .component_2, .component_3, .component_4, .component_5,
+.component_6, .component_7, .component_8  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #5295b4;
+    padding: 0 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.style1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #273a8f;
+    padding: 0 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.aside-telegram-icon {
+    width: 15%;
+}
+
+.component-info {
+    margin-left: 20px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    background-color: inherit;
+}
+.component-name {
+    font-size: 20px;
+}
+
+.middle-top{
+    height: 8%;
+    padding-left: 20px;
+}
+
+.middle-center {
+    height: 520px;
+    background-color: #7CA279;
+    overflow: scroll;
+    padding: 0 10%;
+}
+
+
+
+
+
+.middle-telegram-icon {
+    width: 40px;
+}
+
+.middle-top-right{
+    padding-right: 20px;
+}
+
+
+
+
+.middle-input {
+    border: none;
+    background-color: inherit;
+    margin-right: 20px;
+}
+
+
+.middle-search {
+    width: 25px;
+    margin-left: 20px;
+}
+
+.middle-dropdown-icon {
+    width: 20px;
+}
+
+.center-input {
+    border-radius: 10% !important;
+}
+
+.style2 {
+    display: block !important;
+}
+
+.style3 {
+    display: none !important;
+}
+
