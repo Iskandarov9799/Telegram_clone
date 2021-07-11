@@ -597,9 +597,6 @@ const infoButton = document.querySelector('.component-info')
 const main = document.querySelector('.main')
 
 
-infoButton.onclick = ()=>{
-    main.classList.add("main2")
-}
 
 
 
